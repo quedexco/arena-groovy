@@ -15,8 +15,8 @@ class PersonTest {
 
     @Test
     public void canConstructAPersonUsingName() {
-        Person p = new Person(name: 'name')
-        assertEquals('name', p.name)
+        Person p = new Person(name: 'Alexia')
+        assertEquals('Alexia', p.name)
     }
 
     @Test
